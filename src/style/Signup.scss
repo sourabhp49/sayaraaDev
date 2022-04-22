@@ -1,0 +1,290 @@
+
+.input-div{
+    width:410px;
+    margin: 1rem auto;
+    height: 62px;
+
+}
+.input-div3{
+    width:410px;
+    margin: 1rem 3rem;
+    height: 62px;
+
+}
+.div{
+    width: 84%;
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+.back-link{
+    color:white;
+}
+.MuiButton-containedPrimary{
+    margin-top: 20px !important;
+    float: right !important;
+}
+
+.documents-heading{
+    font-family: 'poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 120%;
+color: #151C28;
+
+}
+.documents-heading-div{
+    width: 34%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.form-btn{
+    position: absolute;
+padding: 16px 56px;
+color: white;
+right: 100px;
+bottom: 40px;
+border: none;
+font-size: 20px;
+background: #FB7E15;
+border-radius: 8px;
+}
+.form-headings{
+    font-family: 'poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 120%;
+/* identical to box height, or 53px */
+
+
+color: #FAFAFA;
+}
+.form-para{
+font-family: 'poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.01em;
+padding-top: 10px;
+padding-right: 85px;
+color: rgba(250, 250, 250, 0.7);
+}
+.form-content-div{
+    width: 85%;
+    margin: 0rem auto;
+    padding-top: 90px;
+}
+.form-content-div-second{
+    width: 50%;
+    padding-top: 30px;
+}
+
+.drag {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+  }
+  label {
+    width: 350px;
+    box-sizing: border-box;
+  }
+  .drop-file-input {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px dashed #D3D7DF;
+    box-sizing: border-box;
+    border-radius: 16px;
+  
+}
+
+.label-logo{
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.drag-para{
+    font-family: 'poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 20px !important;
+line-height: 120%;
+color: #585562;
+}
+.drop-file-input input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.drop-file-input:hover,
+.drop-file-input.dragover {
+    opacity: 0.6;
+}
+
+.drop-file-input__label {
+    text-align: center;
+    color: var(--txt-second-color);
+    font-weight: 600;
+    padding: 10px;
+}
+
+.drop-file-input__label img {
+    width: 42.16px;
+    margin: 0 auto;
+}
+
+.drop-file-preview {
+    margin-top: 30px;
+}
+
+.drop-file-preview p {
+    font-weight: 500;
+}
+
+.drop-file-preview__title {
+    margin-bottom: 20px;
+}
+
+.drop-file-preview__item {
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+    background-color: var(--input-bg);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.drop-file-preview__item img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.drop-file-preview__item__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.drop-file-preview__item__del {
+    background-color: var(--box-bg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.drop-file-preview__item:hover .drop-file-preview__item__del {
+    opacity: 1;
+}
+.form-multi-container{
+    justify-content: space-between;
+}
+.MuiStepIcon-root.MuiStepIcon-active {
+    color: #FB7E15 !important;
+}
+.form-heading-contact{
+    width: 84%;
+    margin: 0 auto;
+    padding: 0;
+}
+.multi-input{
+    font-family: 'poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+background: #F4F6FA;
+border-radius: 4px;
+border: none;
+color: rgba(88, 85, 98, 0.7);
+padding: 16px 12px;
+outline: none;
+}
+.form-btn{
+
+color: white;
+border: none;
+/* font-size: 20px; */
+background: #FB7E15;
+border-radius: 8px;
+}
+
+.uploade input{
+    font-size: 16px;
+    width: 100%;
+    background: rgba(88, 85, 98, 0.7) !important;
+    color: white;
+    height: 50px;
+    /* border: 1px solid white !important; */
+    /* // padding: 16px 12px !important;
+    // height: calc(2.875rem + 2px); */
+    outline: none;
+  }
+  .uploade ::-webkit-file-upload-button{
+      color: white;
+      background-color: rgba(88, 85, 98, 0.7);
+      padding: 16px;
+      cursor: pointer;
+      border-right: 1px solid rgba(88, 85, 98, 0.7);
+    /* //   border-radius: 50px; */
+     
+      outline: none;
+      
+  }
+@media screen and (max-width:600px) {
+    .input-div{
+        width:100%;
+        margin: 1rem auto;
+        height: 62px;
+    
+    }
+    .input-div3{
+        width: 100;
+        margin: 0;
+    }
+    .form-content-div{
+        width: 85%;
+        margin: 0rem auto;
+        padding-top: 18px;
+    }
+    .form-content-div-second{
+        width: 100%;
+        padding-top: 30px;
+    }
+    .form-para{
+        padding-right: 0;
+    }
+    .drop-file-input{
+width: 100%;
+    }
+    .MuiStepper-root{
+        padding-left: 0 !important;
+    }
+}
