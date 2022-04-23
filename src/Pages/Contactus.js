@@ -35,11 +35,6 @@ const Contactus = ()=>{
     const { name, value } = event.target;
     setInputValue({ ...inputValues, [name]: value });
   }
-  // const [name,setName] = useState('');
-  // const [contactEmail,setContactEmail] = useState('');
-  // const [contactSubject,setContactSubject] = useState("");
-  // const [contactPhone,setContactPhone] = useState("");
-  // const [contactMessage,setContactMessage] = useState("");
   const onSubmited = e => {
     if(inputValues){
 		e.preventDefault();
@@ -47,20 +42,13 @@ const Contactus = ()=>{
       position: toast.POSITION.TOP_RIGHT,
       autoClose: false,
     });
-		// const newUser = {
-		// 	name: name,
-		// 	contactEmail: contactEmail,
-		// 	contactSubject: contactSubject,
-		// 	contactPhone: contactPhone,
-    //   contactMessage:contactMessage
-		// };
     dispatch(FetchdataContactus(inputValues));
-		console.log(inputValues,'inputValues');
     setInputValue({
       contact_name: "",
       contact_email: "",
-      brand_name: "",
-      model_name: "",
+      contact_subject: "",
+      contact_phone: "",
+      contact_message: "",
     });
   }
 	};

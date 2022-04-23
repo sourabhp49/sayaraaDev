@@ -7,9 +7,9 @@
   width: 100%;
   height: auto;
 }
-// .main{
-//     border-bottom: 2px solid black;
-// }
+.rate-flex1 img{
+   margin-bottom: 3px !important;
+}
 
 .card-heading1 h1 {
   font-family: "Poppins", sans-serif;
@@ -80,13 +80,18 @@
   display: flex;
   justify-content: space-between;
 }
+.badge-light{
+  color: #151c28 !important;
+  font-weight: 500;
+  font-size: 12px;
+}
 .ratings-div1 {
   flex-basis: 10%;
 }
 .ratings-div1 img {
   width: 100%;
   height: auto;
-  margin-top: 4px;
+  margin-top: 5px;
 }
 .ratings-div2{
  
@@ -172,6 +177,13 @@
 }
 .rates1 {
   padding-left: 4px;
+
+}
+.rates2{
+  color: black;
+  font-weight: 500;
+  font-size: 13px;
+  padding-top: 5px;
 }
 
 // strike css

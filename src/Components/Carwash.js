@@ -30,18 +30,19 @@ const useStyles = makeStyles((theme) => ({
   },
   price_rating_style: {
     display: "flex",
-    padding: "-0.8em",
+    // padding: "-0.8em",
     left: "-1.5em",
     position: "relative",
   },
   rating_img: {
-    height: "0.8em",
-    width: "0.8em",
+    height: "0.5em",
+    width: "auto",
+    marginBottom: '4px'
   },
   rating_parent: {
     display: "flex",
-    opacity: "0.7",
-    background: "red",
+    // opacity: "0.7",
+    background: "#fef7f1",
     borderRadius: "14%",
   },
 }));
@@ -126,28 +127,28 @@ const CarWash = ({ search }) => {
                       </div>
                     ))}
                   </div>
-                  <div>
+                  {/* <div>
                     <div className={classes.rating_parent}>
-                      <div className="px-2">
+                      <div className="pl-2">
                         <img className={classes.rating_img} src={Star} alt="" />
                       </div>
                       <span class="badge badge-light">
                         {parseInt(carwashlist.vendor_rate)}/5
                       </span>
                     </div>
-                  </div>
-                  {/* <div className="card-ratings-withcontent1">
+                  </div> */}
+                  <div className="card-ratings-withcontent1">
                     <div className="ratings-div1">
                       <div className="ratingswithcontent-div1">
-                        <div className="rate-flex1">
+                        <div className="rate-flex1 rate-flex2">
                           <img src={Star} alt="" />
                         </div>
                         <div>
-                          <p className="rates1"></p>
+                          <p className="rates1 rates2 ">{parseInt(carwashlist.vendor_rate)}/5</p>
                         </div>
                       </div>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </Grid>
